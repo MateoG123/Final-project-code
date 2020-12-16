@@ -40,6 +40,7 @@ import { FngAccordionComponent } from './fng-accordion/fng-accordion.component';
 import { GraphicDesignComponent } from './graphic-design/graphic-design.component';
 import { PortfolioLightboxComponent } from './portfolio-lightbox/portfolio-lightbox.component';
 import { MateoComponent } from './mateo/mateo.component';
+import { FoundationComponent } from './foundation/foundation.component';
 
 @NgModule({
   imports: [
@@ -71,7 +72,8 @@ import { MateoComponent } from './mateo/mateo.component';
     FngAccordionComponent,
     GraphicDesignComponent,
     PortfolioLightboxComponent,
-    MateoComponent
+    MateoComponent,
+    FoundationComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
